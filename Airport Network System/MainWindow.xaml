@@ -1,0 +1,20 @@
+﻿<Window x:Class="Airport_Network_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="750" Width="1000" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Gray" ResizeMode="NoResize">
+    <Grid Background="Gray" Margin="0,0,-3.4,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="68*"/>
+            <ColumnDefinition Width="57*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="751" VerticalAlignment="Top" Width="507" Source="E:\C# Project\Pictures\loginpic.jpg" Margin="0,0,0,-7" />
+    <Label Content="Airport Network System" HorizontalAlignment="Left" Margin="68.1,212,0,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="24" Grid.Column="1"/>
+    <TextBox x:Name="userIDtxtbox" HorizontalAlignment="Left" Height="24" Margin="111.1,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" BorderThickness="0,0,0,1" Background="Gray" BorderBrush="White" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="35" Margin="69.1,318,0,0" VerticalAlignment="Top" Width="35" Source="E:\C# Project\Icons\a.png" Grid.Column="1" />
+    <Image HorizontalAlignment="Left" Height="35" Margin="69.1,378,0,0" VerticalAlignment="Top" Width="35" Source="E:\C# Project\Icons\p.png" Grid.Column="1" />
+    <Button Content="Login" HorizontalAlignment="Left" Margin="133.1,492,0,0" VerticalAlignment="Top" Width="135" BorderThickness="0" FontFamily="Century Gothic" FontSize="18" Height="42" Click="loginbtn" Grid.Column="1"/>
+    <Button x:Name ="closingbtn" Content="x" HorizontalAlignment="Left" Margin="403.4,0,0,0" VerticalAlignment="Top" Width="54" FontWeight="Bold" Background="Gray" BorderThickness="0" Height="47" Click="Button_Click_2" FontSize="16" Grid.Column="1"/>
+        <PasswordBox HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordtxtBox" Grid.Column="1" HorizontalAlignment="Left" Margin="111.4,387,0,0" VerticalAlignment="Top" Width="230" Height="24" Background="Gray" FontFamily="Century Gothic" BorderThickness="0,0,0,1" BorderBrush="White"/>
+    </Grid>
+
+</Window>

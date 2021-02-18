@@ -1,0 +1,33 @@
+﻿<Window x:Class="Airport_Network_System.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Home" Height="750" Width="1000" Background="Gray" WindowStyle="None" WindowStartupLocation="CenterScreen" BorderBrush="Gray" ResizeMode="NoResize">
+    <Grid Background="Gray" Margin="0,0,0,-5.6">
+        <DockPanel HorizontalAlignment="Left" Height="31" LastChildFill="False" VerticalAlignment="Top" Width="1006" Background="#FFF08D47">
+            <Image Height="26" VerticalAlignment="Top" Width="35"  RenderTransformOrigin="0.54,0.96" Source="E:\C# Project\Icons\menu-button.png"/>
+            <Label Content="Dash Board" Height="35" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="16" RenderTransformOrigin="0.5,0.5"/>
+        </DockPanel>
+        <DockPanel HorizontalAlignment="Left" Height="725" LastChildFill="False" Margin="0,31,0,0" VerticalAlignment="Top" Width="205" Background="#FFA8AAAA"/>
+        <Button x:Name="homebtn" Content="Home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="205" Margin="0,155,0,0" Height="69" BorderThickness="0" FontFamily="Century Gothic" Background="Gray" FontSize="16"/>
+        <Image HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="23" Margin="49,177,0,0"  RenderTransformOrigin="0.95,1" Source="E:\C# Project\Icons\homee.png"/>
+        <Button x:Name="detailsbtn" Content="Details" HorizontalAlignment="Left" Margin="0,224,0,0" VerticalAlignment="Top" Width="205" Height="69" FontFamily="Century Gothic" FontSize="16" Background="#FFA8AAAA" BorderBrush="#FFA8AAAA" Click="detailsbtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="23"  Margin="49,248,0,0" RenderTransformOrigin="1.296,1.105" Source="E:\C# Project\Icons\details.png"/>
+        <Button x:Name="bookbtn" Content="  Booking" HorizontalAlignment="Left" VerticalAlignment="Top" Width="205" Margin="0,293,0,0" Height="69" Background="#FFA8AAAA" BorderBrush="#FFA8AAAA" FontSize="16" FontFamily="Century Gothic" Click="bookbtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="19" Margin="49,317,0,0" VerticalAlignment="Top" Width="23" Source="E:\C# Project\Icons\book.png" />
+        <Button x:Name="cancelbtn" Content="       Cancelling" HorizontalAlignment="Left" Margin="10,362,0,0" VerticalAlignment="Top" Width="195" Height="69" Background="#FFA8AAAA" BorderBrush="#FFA8AAAA" FontFamily="Century Gothic" FontSize="16" Click="cancelbtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="19" Margin="49,386,0,0" VerticalAlignment="Top" Width="23"  RenderTransformOrigin="-12.757,0.621" Source="E:\C# Project\Icons\cancel.png"/>
+        <Button x:Name="logoutbtn" Content="  Log Out" HorizontalAlignment="Left" Margin="0,431,0,0" VerticalAlignment="Top" Width="205" Height="69" Background="#FFA8AAAA" BorderBrush="#FFA8AAAA" FontFamily="Century Gothic" FontSize="16" Click="logoutbtn_Click"/>
+        <Image HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="23"  Margin="49,454,0,0" RenderTransformOrigin="0.53,0.611" Source="E:\C# Project\Icons\logout.png" />
+        <Button x:Name="closingbtn" Content="x" HorizontalAlignment="Left" Margin="958,0,0,0" VerticalAlignment="Top" Width="38" Height="31" Click="closingbtn_Click" FontFamily="Century Gothic" Background="#FFF08D47" BorderThickness="0" FontWeight="Bold" RenderTransformOrigin="1.125,0.48"/>
+        <Calendar HorizontalAlignment="Left" Margin="810,138,0,0" VerticalAlignment="Top" BorderThickness="0" Background="Gray" Foreground="White" BorderBrush="Gray"/>
+        <Label Content="                                        Airport Network System" HorizontalAlignment="Left" Margin="210,54,0,0" VerticalAlignment="Top" Height="49" Width="786" FontFamily="Century Gothic" FontSize="24" Background="Transparent"/>
+        <Label Content="                                                                                                                                                                                                                         By The Kingsman Ltd." HorizontalAlignment="Left" Margin="210,108,0,0" VerticalAlignment="Top" Height="25" Width="786" FontFamily="Century Gothic" FontSize="11" Cursor="None"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="212,103,0,0" VerticalAlignment="Top" Width="784" Background="Black" Height="2
+               "/>
+        <Label Content="User:" HorizontalAlignment="Left" Margin="212,155,0,0" VerticalAlignment="Top" Height="41" Width="58" FontFamily="Century Gothic" FontSize="20"/>
+        <Label Content="AdminID" HorizontalAlignment="Left" Margin="275,155,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+
+
+</Window>

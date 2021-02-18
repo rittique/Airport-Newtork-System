@@ -1,0 +1,22 @@
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\bin\Debug\Airport Network System.exe.config
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\bin\Debug\Airport Network System.exe
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\bin\Debug\Airport Network System.pdb
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System.csprojResolveAssemblyReference.cache
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\MainWindow.baml
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\MainWindow.g.cs
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\App.g.cs
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System_MarkupCompile.cache
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System.g.resources
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport_Network_System.Properties.Resources.resources
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System.csproj.GenerateResource.Cache
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System.exe
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Airport Network System.pdb
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Home.baml
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Home.g.cs
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\bin\Debug\MySql.Data.DLL
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Details.baml
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Details.g.cs
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Booking.baml
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Cancelling.baml
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Booking.g.cs
+E:\C# Project\Airport Network System\Airport Network System\Airport Network System\obj\Debug\Cancelling.g.cs
